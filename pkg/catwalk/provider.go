@@ -35,6 +35,7 @@ const (
 	InferenceProviderChutes      InferenceProvider = "chutes"
 	InferenceProviderHuggingFace InferenceProvider = "huggingface"
 	InferenceAIHubMix            InferenceProvider = "aihubmix"
+	InferenceProviderMiniMax	 InferenceProvider = "minimax"
 )
 
 // Provider represents an AI provider configuration.
@@ -94,6 +95,7 @@ func KnownProviders() []InferenceProvider {
 		InferenceProviderVenice,
 		InferenceProviderChutes,
 		InferenceProviderHuggingFace,
+		InferenceProviderMiniMax,
 		InferenceAIHubMix,
 	}
 }
