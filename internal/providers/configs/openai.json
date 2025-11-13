@@ -4,7 +4,7 @@
   "type": "openai",
   "api_key": "$OPENAI_API_KEY",
   "api_endpoint": "$OPENAI_API_ENDPOINT",
-  "default_large_model_id": "gpt-5-1-codex",
+  "default_large_model_id": "gpt-5.1-codex",
   "default_small_model_id": "gpt-4o",
   "models": [
     {
